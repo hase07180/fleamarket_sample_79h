@@ -135,7 +135,7 @@ Things you may want to cover:
 ### Association
 - has_many :comments, dependent: :destroy
 - has_many :favorites
-- has_many :item_imgs, dependent: :destroy
+- has_many :item_images, dependent: :destroy
 - has_one :user_evaluation
 - belongs_to :category
 - belongs_to_active_hash :size
