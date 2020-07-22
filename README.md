@@ -164,7 +164,7 @@ Things you may want to cover:
 
 
 
-## item_imgsテーブル
+## item_imagesテーブル
 
 |Column|Type|Options|
 |------|----|-------|
@@ -182,7 +182,7 @@ Things you may want to cover:
 
 |Column|Type|Options|
 |------|----|-------|
-|comment|text|null: false|
+|body|text|null: false|
 |user|references|null: false, foreign_key: true|
 |item|references|null: false, foreign_key: true|
 |created_at|timestamp|null: false|
